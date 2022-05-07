@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="OcV18cgpNqoNDI8zO75LqO" Name="Bounds" Kind="InputPin" DefaultValue="1110, 181, 786, 432">
+            <Pin Id="OcV18cgpNqoNDI8zO75LqO" Name="Bounds" Kind="InputPin" DefaultValue="1145, 179, 786, 432">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -100,26 +100,6 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="513,430,86,19" Id="MT9V7xcXDhON90nzrp5uAk">
-            <p:NodeReference LastCategoryFullName="VL.G3" LastSymbolSource="VL.G3.vl">
-              <Choice Kind="ProcessNode" Name="MarchingCubes" />
-            </p:NodeReference>
-            <Pin Id="StlVI56uZ7ENi78XbJNXOf" Name="Implicit" Kind="InputPin" />
-            <Pin Id="PJB5sJbFJmEQRIgapea5Ka" Name="Num Cells" Kind="InputPin" DefaultValue="200">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Integer32" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="LFbYEm0VSlyPwGIcKqZBpc" Name="Root Mode" Kind="InputPin" DefaultValue="SingleLerp">
-              <p:TypeAnnotation LastCategoryFullName="g3.MarchingCubes" LastSymbolSource="geometry3Sharp.dll">
-                <Choice Kind="TypeFlag" Name="RootfindingModes" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="PJ3VIyEaedTQP9v3tnEsEw" Name="Iso Value" Kind="InputPin" />
-            <Pin Id="MBBjGjCEL74PFZBrwPIsuD" Name="Root Mode Steps" Kind="InputPin" DefaultValue="6" />
-            <Pin Id="FiNmCgWp19VOvnoVTeATwb" Name="Mesh" Kind="OutputPin" />
-            <Pin Id="T6VLQ9lHekkOfNHQFGZWof" Name="Cube Size" Kind="OutputPin" />
-          </Node>
           <Node Bounds="653,284,79,19" Id="KOPsTlKqvp0MeBJKiRtrqF">
             <p:NodeReference LastCategoryFullName="VL.G3" LastSymbolSource="VL.G3.vl">
               <Choice Kind="ProcessNode" Name="ImplicitBox3d" />
@@ -210,9 +190,10 @@
             <Pin Id="H1Vtf7oGdTMOdoYM61v3BQ" Name="Cull Mode" Kind="InputPin" />
             <Pin Id="VcziwfK5TdBPwMBGo9dKiE" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="670,443,86,19" Id="GqcNmHm4ykLNcbjvkdn8XC">
-            <p:NodeReference LastCategoryFullName="VL.G3" LastSymbolSource="VL.G3.vl">
-              <Choice Kind="ProcessNode" Name="MarchingCubes" />
+          <Node Bounds="640,430,101,19" Id="GqcNmHm4ykLNcbjvkdn8XC">
+            <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes" LastSymbolSource="VL.Geometry3.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="MarchingCubesPro" />
             </p:NodeReference>
             <Pin Id="HRzqSeRgcAGOUpna9A4tmg" Name="Implicit" Kind="InputPin" />
             <Pin Id="ITGLTUKxVZOLyxXGRw0IxN" Name="Num Cells" Kind="InputPin" DefaultValue="200">
@@ -220,11 +201,7 @@
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="P7AuXFoOH98LfXWjEq4CFg" Name="Root Mode" Kind="InputPin" DefaultValue="SingleLerp">
-              <p:TypeAnnotation LastCategoryFullName="g3.MarchingCubes" LastSymbolSource="geometry3Sharp.dll">
-                <Choice Kind="TypeFlag" Name="RootfindingModes" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="P7AuXFoOH98LfXWjEq4CFg" Name="Root Mode" Kind="InputPin" />
             <Pin Id="TPZxj01DKluOAjF9xMrQmr" Name="Iso Value" Kind="InputPin" />
             <Pin Id="F28ahPB66DIOtI51im09VS" Name="Root Mode Steps" Kind="InputPin" />
             <Pin Id="MrLoKimgxQDMtrYYzXv2gN" Name="Mesh" Kind="OutputPin" />
@@ -248,9 +225,10 @@
             </Pin>
             <Pin Id="TOLTiKsnA52NYcjI2rWLhv" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="768,440,86,19" Id="EhAXcvzu9QZM8HpGdMnpYg">
-            <p:NodeReference LastCategoryFullName="VL.G3" LastSymbolSource="VL.G3.vl">
-              <Choice Kind="ProcessNode" Name="MarchingCubes" />
+          <Node Bounds="768,430,101,19" Id="EhAXcvzu9QZM8HpGdMnpYg">
+            <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes" LastSymbolSource="VL.Geometry3.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="MarchingCubesPro" />
             </p:NodeReference>
             <Pin Id="JdpJGnIkMKwLRPkic0Q09L" Name="Implicit" Kind="InputPin" />
             <Pin Id="JBwM3IT62mYMUrl4BoqCUC" Name="Num Cells" Kind="InputPin" DefaultValue="200">
@@ -258,11 +236,7 @@
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="CefwXqx3DWWLeSLanVTyee" Name="Root Mode" Kind="InputPin" DefaultValue="SingleLerp">
-              <p:TypeAnnotation LastCategoryFullName="g3.MarchingCubes" LastSymbolSource="geometry3Sharp.dll">
-                <Choice Kind="TypeFlag" Name="RootfindingModes" />
-              </p:TypeAnnotation>
-            </Pin>
+            <Pin Id="CefwXqx3DWWLeSLanVTyee" Name="Root Mode" Kind="InputPin" />
             <Pin Id="SUW0vX8w4eLP7K6t76CPsc" Name="Iso Value" Kind="InputPin" />
             <Pin Id="Dh3AhOF9do0L9emWamgvEf" Name="Root Mode Steps" Kind="InputPin" />
             <Pin Id="Gwl8tlh7qDIL1I1smPFF3e" Name="Mesh" Kind="OutputPin" />
@@ -362,6 +336,23 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="513,430,101,19" Id="S4BnAKZY5WCN39sAhYTgVr">
+            <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes" LastSymbolSource="VL.Geometry3.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="MarchingCubesPro" />
+            </p:NodeReference>
+            <Pin Id="QFQQfScfp3RNLrXmo473zr" Name="Implicit" Kind="InputPin" />
+            <Pin Id="LMzLP8Oqh7oLhJtib9zYd5" Name="Num Cells" Kind="InputPin" DefaultValue="200">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Nck5it0U1aiM9g8OoIqZpN" Name="Root Mode" Kind="InputPin" />
+            <Pin Id="BhxhYFRW26cNjHZovjJz5k" Name="Iso Value" Kind="InputPin" />
+            <Pin Id="OqJjCgEuPqMLmR6b5K2Z5e" Name="Root Mode Steps" Kind="InputPin" />
+            <Pin Id="V52nHIF9HrWNxL3yvXbuU0" Name="Mesh" Kind="OutputPin" />
+            <Pin Id="IlkKKcAUvhzPrrouS8CShK" Name="Cube Size" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="DmY0kXCg46VNZDUEJqTmag" Name="Create" />
         <Patch Id="VxO3xcGEGn5NCeGqwmxYte" Name="Update" />
@@ -376,7 +367,6 @@
         <Link Id="UKQle2xvfH8LQfcrRF1qtI" Ids="P58WVdgGrdeQKuwQR1hiST,Mv5k6HDnkt8LGxGTopFJeP" />
         <Link Id="VsrYbFQxSu8L90uM7pUBrO" Ids="DH3ycJiwMS7QEJ5HuQ1T5E,MkHI9ApFYNSL8IMl1ugKyc" />
         <Link Id="UVFtqmAG8yyPxw55MPqqMh" Ids="LKHdJ7BFfvjNbAHdCc7AQ8,Rv0SBdm1X8OLWvNj4d0y6a" />
-        <Link Id="SHUcvLmSDpkOqtAq8qQ6Jh" Ids="FiNmCgWp19VOvnoVTeATwb,UDFxODIWv2KLjYra9csEWr" />
         <Link Id="KUfHW7FKPzNPdxjTFmKR6m" Ids="Vk1O4rbrynaQcanR8ofb7N,K334dmInA3xMmA956rw0IC" />
         <Link Id="PebwQ1byBwgONkA2gJuZG4" Ids="S8Tw2N2MalNNLMlLmBasj0,QbGzvwkfwMfLQkA3MbKVuL" />
         <Link Id="F9RUk7vLR9HPjxwP2yQgtE" Ids="VcziwfK5TdBPwMBGo9dKiE,ReKBWaIaPCdPUBxvfOtv8O" />
@@ -395,11 +385,12 @@
         <Link Id="FfyWVAW2FykLitEo4e4X7v" Ids="LKHdJ7BFfvjNbAHdCc7AQ8,OCi06q8hnwRMzpktukyvEJ" />
         <Link Id="KUzFhUH4VlKP3KyDiYx3m9" Ids="DH3ycJiwMS7QEJ5HuQ1T5E,O0fVh0ZVpi6P8UZQCwfSah" />
         <Link Id="BcCwkOyD0uTMuSqJjLACas" Ids="LKHdJ7BFfvjNbAHdCc7AQ8,KZmQgjSIDLXL11Hv3oGka8" />
-        <Link Id="BBlEIH827hsPaEghHa8cKr" Ids="GBrL2nZYP6OOyeJCq3Vj1M,StlVI56uZ7ENi78XbJNXOf" />
         <Link Id="Mpy6JVIzeynQKRCi0yZzNh" Ids="C3eIry7BoGTLNhBaSM3MPY,M0U3KsXfKhuOf1TuwAkiOK" />
         <Link Id="Pi9vHOSIVv5QAQ74KcVJbs" Ids="D6EH5rBBR8MLcjoZxEiAsz,SedXA7YqQbpNz0XfY3FLqR" />
         <Link Id="MXgybejfChJN9z43FfkgkH" Ids="PZsXpbb7H5kNmRvEnZlgTe,S7CiEYQmHaQLd4i4rXKDaW" />
         <Link Id="ArDGhqSjzF3MkqSuJoYzot" Ids="E5ZXgZHiqorP3ZrAC3d7Ny,MMjfM3hXdP1OjAOxVVkE70" />
+        <Link Id="MuABUXrVxHxLxdCn56mnFm" Ids="GBrL2nZYP6OOyeJCq3Vj1M,QFQQfScfp3RNLrXmo473zr" />
+        <Link Id="HQb0QGcMmhVN1tSLaKC3Ic" Ids="V52nHIF9HrWNxL3yvXbuU0,UDFxODIWv2KLjYra9csEWr" />
       </Patch>
     </Node>
   </Patch>
