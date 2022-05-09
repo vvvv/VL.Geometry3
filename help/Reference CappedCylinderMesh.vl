@@ -67,7 +67,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1452, 550, 406, 432" />
+            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1452, 550, 450, 432" />
             <Pin Id="U9FgBjI8MO0PeFgB9mLk56" Name="Input" Kind="InputPin" />
             <Pin Id="IXPYbfQgpPjLqn0PlBA7sM" Name="Camera" Kind="InputPin" />
             <Pin Id="NMyEGHu0uC0PO0Sgnd2XAj" Name="Enable Default Camera" Kind="InputPin" />

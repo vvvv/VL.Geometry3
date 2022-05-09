@@ -186,6 +186,26 @@
             <Pin Id="EWsHoocnCqLPF1qn2IvzZW" Name="Enabled" Kind="InputPin" />
             <Pin Id="SgUXdhbIGpyPEPX1t1kjXH" Name="Entity" Kind="OutputPin" />
           </Node>
+          <Pad Id="Ugzf9TPTRaHQUQng7mwqFJ" Comment="Corner Steps" Bounds="356,152,35,15" ShowValueBox="true" isIOBox="true" Value="6">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="VH5w8j9NgsfP4GPG9CTfZh" Comment="Height" Bounds="376,183,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="BAfZK4IdKzqLzvBezJEUfs" Comment="Radius" Bounds="396,214,35,15" ShowValueBox="true" isIOBox="true" Value="0.25">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="NLgu6uPyKtaPhLFpOQ6mOz" Comment="Width" Bounds="456,246,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="HUKSJBmjQ4MOo0YINx7PsI" Name="Create" />
         <Patch Id="OTxaLwBAzCvLy1s1SeKhFH" Name="Update" />
@@ -204,6 +224,10 @@
         <Link Id="JOVp4MQ2MoQOPFTf0UlkYr" Ids="SgUXdhbIGpyPEPX1t1kjXH,DN9rmp6YqgdOPyK23WyMJ5" />
         <Link Id="MHXFXoH9rDSO8qGC3pyIdD" Ids="J7PVbH0rmN7Qa7BOeU1GPL,Iq5XG7j3NMTQECqCIlEVud" />
         <Link Id="ACvfVttP6ccMDfD9TlnjEL" Ids="R6WI4ldhL1gO4DutzUJ0vy,EgHuuiatAYFM8TzJPE9Avv" />
+        <Link Id="Vg5bpTUv3JcNuAXIUHqayS" Ids="Ugzf9TPTRaHQUQng7mwqFJ,ULZgXClDHWnM3JKunZmvIi" />
+        <Link Id="D9MU2rHkO8TNOYKxm3TmXW" Ids="VH5w8j9NgsfP4GPG9CTfZh,HQVnvYATBXFPijMOXh0Srw" />
+        <Link Id="L2wnFcCP8OTMI6mVGGmLkJ" Ids="BAfZK4IdKzqLzvBezJEUfs,E8jVLF327pTQbVVBPdW307" />
+        <Link Id="DZ19DUIsu8iNtlGf3rs1qP" Ids="NLgu6uPyKtaPhLFpOQ6mOz,MkSSCACbxkGL65BsGWF9fF" />
       </Patch>
     </Node>
   </Patch>

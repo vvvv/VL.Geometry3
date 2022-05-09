@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Ddzpa6OKA5vOnCN4IA5C6v" LanguageVersion="2021.4.8.947" Version="0.128">
+<Document xmlns:p="property" Id="Ddzpa6OKA5vOnCN4IA5C6v" LanguageVersion="2021.4.9.963" Version="0.128">
   <Patch Id="SDrGkzY2oNZNE6MIlfyZlM">
     <Canvas Id="UvJUJ5uN3HkPofYQCZpkJZ" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -77,7 +77,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="RnDqBTuqaelPG2kyI7tjr0" Name="Bounds" Kind="InputPin" DefaultValue="1024, 87, 435, 432" />
+            <Pin Id="RnDqBTuqaelPG2kyI7tjr0" Name="Bounds" Kind="InputPin" DefaultValue="1464, 550, 439, 432" />
             <Pin Id="LnHVnmckWTwLo2lHc2iknZ" Name="Input" Kind="InputPin" />
             <Pin Id="QxNRAhKXMPvLTyHuZKDTHr" Name="Camera" Kind="InputPin" />
             <Pin Id="V43Enaxi0QaO0k4cEDbJ7b" Name="Enable Default Camera" Kind="InputPin" />
@@ -119,23 +119,9 @@
             <Pin Id="IXCeHf1Ni95MC3Vtbkyr1n" Name="Enabled" Kind="InputPin" />
             <Pin Id="Sh3WW0Xi4AMMlcpFscfRmY" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="TUYO9fQ7bRyNC5gRsAwRkI" Comment="Vertices" Bounds="235,203,35,15" ShowValueBox="true" isIOBox="true" Value="6">
+          <Pad Id="TUYO9fQ7bRyNC5gRsAwRkI" Comment="Vertices" Bounds="354,213,35,15" ShowValueBox="true" isIOBox="true" Value="6">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="JPBlXFETYbQOLEMVDHtuu6" Comment="Shared Vertices" Bounds="368,164,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation>
-              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-              <FullNameCategoryReference ID="Primitive" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="GvujywGxNJPNEX3PXdEXX0" Comment="Local Offset" Bounds="470,209,35,43" ShowValueBox="true" isIOBox="true" Value="0, 0, 0">
-            <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="616,838,205,19" Id="SATcyGxYxB2OXVHaa5WLDK">
@@ -215,8 +201,6 @@
         <Link Id="TJst59Wu7qeM1hcsYkSUJU" Ids="FV3rmP1k3t0OEPHvy3zHau,MaK5vXn7JE6MsZ4BSIMc98" />
         <Link Id="GVLNYU3sRDzOHuvPwvImwA" Ids="Sh3WW0Xi4AMMlcpFscfRmY,LnHVnmckWTwLo2lHc2iknZ" />
         <Link Id="O7x6a0bwNYUN7TG0fbVanv" Ids="TUYO9fQ7bRyNC5gRsAwRkI,IMCH4aapyMCPlHl53tjMpt" />
-        <Link Id="UQ85j5C9Es5NFVdm2AaEA2" Ids="JPBlXFETYbQOLEMVDHtuu6,LOHcewtP8vdMYpP9iDmaPB" />
-        <Link Id="SBf0FbJfPKsOaSs5Wvu9kR" Ids="GvujywGxNJPNEX3PXdEXX0,OppUUDFUcGTNl1ONT11N5Q" />
         <Link Id="VF380av9RmFLk6SjZloP4K" Ids="CewmfDFrxAnM8KATnQ4tzu,CNFpWAqzHyHLU9mWaVvM32" />
         <Link Id="BYrjcPnwPnPLFNIU2iG7RS" Ids="NX63lx2uGv4QahMiIFxTlf,M7FCoY9Tj7zLE9p7ahCmJ7" />
         <Link Id="JOVp4MQ2MoQOPFTf0UlkYr" Ids="SgUXdhbIGpyPEPX1t1kjXH,DN9rmp6YqgdOPyK23WyMJ5" />
@@ -225,7 +209,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="ATQbOpgIvgpOSEySvK5RHc" Location="VL.CoreLib" Version="2021.4.8" />
-  <NugetDependency Id="VKr7iVVpYCEMu6G4XErBid" Location="VL.Stride" Version="2021.4.8" />
+  <NugetDependency Id="ATQbOpgIvgpOSEySvK5RHc" Location="VL.CoreLib" Version="2021.4.9-0963-ga8d57d1782" />
+  <NugetDependency Id="VKr7iVVpYCEMu6G4XErBid" Location="VL.Stride" Version="2021.4.9-0963-ga8d57d1782" />
   <NugetDependency Id="SoT2IE9TwHaLwSpcuAh7LV" Location="VL.Geometry3" Version="0.0.0.0" />
 </Document>

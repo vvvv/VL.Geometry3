@@ -67,7 +67,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1025, 84, 406, 432" />
+            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1444, 550, 459, 432" />
             <Pin Id="U9FgBjI8MO0PeFgB9mLk56" Name="Input" Kind="InputPin" />
             <Pin Id="IXPYbfQgpPjLqn0PlBA7sM" Name="Camera" Kind="InputPin" />
             <Pin Id="NMyEGHu0uC0PO0Sgnd2XAj" Name="Enable Default Camera" Kind="InputPin" />
@@ -181,11 +181,11 @@
             <Pin Id="OaULYUwtq6AQASPeG7V8EG" Name="Capped" Kind="InputPin" DefaultValue="True" />
             <Pin Id="HmSQucTPYuEMGzLKw2R46m" Name="Curve" Kind="InputPin" />
             <Pin Id="GT3eTDhN3vBK9fvnnvbsk8" Name="Shared Vertices" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="N70BKC8nQ4oOWXnAnECUA0" Name="Slices" Kind="InputPin" DefaultValue="13" />
+            <Pin Id="N70BKC8nQ4oOWXnAnECUA0" Name="Slices" Kind="InputPin" DefaultValue="15" />
             <Pin Id="C7ZZ6xmlqGRPE4pqDoaCKD" Name="Local Offset" Kind="InputPin" />
             <Pin Id="TqO2rPSnPiILtg3PIiKzGt" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="FtMC6SoX1SSQP89BNVFM94" Bounds="421,203,137,126" ShowValueBox="true" isIOBox="true">
+          <Pad Id="FtMC6SoX1SSQP89BNVFM94" Comment="Curves" Bounds="448,210,135,44" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -200,7 +200,7 @@
               <Item>0.09999999, 0.45, 0</Item>
             </p:Value>
           </Pad>
-          <Pad Id="Kq282tKEZW2LAqSF9NcATD" Bounds="191,198,137,126" ShowValueBox="true" isIOBox="true">
+          <Pad Id="Kq282tKEZW2LAqSF9NcATD" Comment="Axis" Bounds="246,213,144,80" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>

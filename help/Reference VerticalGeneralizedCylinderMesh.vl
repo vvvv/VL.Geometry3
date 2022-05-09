@@ -67,7 +67,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1452, 550, 406, 432" />
+            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1443, 548, 459, 432" />
             <Pin Id="U9FgBjI8MO0PeFgB9mLk56" Name="Input" Kind="InputPin" />
             <Pin Id="IXPYbfQgpPjLqn0PlBA7sM" Name="Camera" Kind="InputPin" />
             <Pin Id="NMyEGHu0uC0PO0Sgnd2XAj" Name="Enable Default Camera" Kind="InputPin" />
@@ -172,7 +172,7 @@
             <Pin Id="Fkok3tpKQbZMi2RuDQgbZQ" Name="Enabled" Kind="InputPin" />
             <Pin Id="PwX09jEEW9jNVo6CuHC67D" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="709,432,6,19" Id="CDBbqt2MWXCQY4qa1qjrll">
+          <Node Bounds="709,432,206,19" Id="CDBbqt2MWXCQY4qa1qjrll">
             <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes" LastSymbolSource="VL.Geometry3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Meshes" NeedsToBeDirectParent="true">
@@ -192,7 +192,7 @@
             <Pin Id="UKSaOOD16MsMmF96BhipK0" Name="Local Offset" Kind="InputPin" />
             <Pin Id="K5c0zBz5zSSOCUOlzvL7ad" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="SWLyLQBcc1ZQBpGlNf3RGj" Comment="Circular Section Radii and Y" Bounds="807,158,110,95" ShowValueBox="true" isIOBox="true">
+          <Pad Id="SWLyLQBcc1ZQBpGlNf3RGj" Comment="Circular Section Radii and Y" Bounds="832,158,110,95" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -210,7 +210,7 @@
               <Item>0.5, 1</Item>
             </p:Value>
           </Pad>
-          <Node Bounds="793,279,94,100" Id="KE3LQxsKow3NebLqIiBRf8">
+          <Node Bounds="818,279,94,100" Id="KE3LQxsKow3NebLqIiBRf8">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -221,7 +221,7 @@
               <Patch Id="FsLilmKwuQKPipYReFERBP" Name="Create" ManuallySortedPins="true" />
               <Patch Id="F594hGWNTCMPpDXyfRkwah" Name="Update" ManuallySortedPins="true" />
               <Patch Id="ViU1fcB5Jt8MrepForlSZs" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="805,333,70,26" Id="CAUaznnXTWWNu32LQMjqrK">
+              <Node Bounds="830,333,70,26" Id="CAUaznnXTWWNu32LQMjqrK">
                 <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes.CircularSection" LastSymbolSource="VL.Geometry3.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="CircularSection" />
@@ -231,7 +231,7 @@
                 <Pin Id="PZQPz5Kmx5nMZWgX1hNDEQ" Name="Section Y" Kind="InputPin" />
                 <Pin Id="DkppPAQmfoELoKfbOcIooq" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="805,302,70,19" Id="GAwfjZpEAPcNn1exLlsO0z">
+              <Node Bounds="830,302,70,19" Id="GAwfjZpEAPcNn1exLlsO0z">
                 <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Vector (Split)" />
@@ -242,8 +242,8 @@
                 <Pin Id="IDlyBUvXb9hLVRTFfJ1b2i" Name="Y" Kind="OutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="C22f2Jv6U1fNxJ1KDK6Ea1" Bounds="807,286" Alignment="Top" />
-            <ControlPoint Id="Ez899IGL2K9Lvxfhj6LXps" Bounds="807,374" Alignment="Bottom" />
+            <ControlPoint Id="C22f2Jv6U1fNxJ1KDK6Ea1" Bounds="832,286" Alignment="Top" />
+            <ControlPoint Id="Ez899IGL2K9Lvxfhj6LXps" Bounds="832,374" Alignment="Bottom" />
           </Node>
           <Pad Id="Gm8kCZBA59mLPrH4zQSLYW" Comment="Capped" Bounds="713,159,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation>

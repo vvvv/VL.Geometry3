@@ -14,7 +14,7 @@
       </p:NodeReference>
       <Patch Id="EaImfNL2PYWQDZtlUNpoxb">
         <Canvas Id="KpSqXTIlxkVNcCkcyTgT62" CanvasType="Group">
-          <Node Bounds="354,289,105,19" Id="HDnfBsxwXt5LZ8hY11bYi6">
+          <Node Bounds="354,289,11,19" Id="HDnfBsxwXt5LZ8hY11bYi6">
             <p:NodeReference LastCategoryFullName="VL.Stride.Models.Meshes" LastSymbolSource="VL.Geometry3.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GriddedRectMesh" />

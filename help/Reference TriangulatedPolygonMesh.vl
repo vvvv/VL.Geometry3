@@ -179,7 +179,7 @@
             </p:NodeReference>
             <Pin Id="ElxJbcbA5g7LsZk7gXj1Xz" Name="Fixed Normal" Kind="InputPin" />
             <Pin Id="RHYnvJ50BdqMrOV5vpUsP7" Name="Polygon" Kind="InputPin" />
-            <Pin Id="L8BnIUMmjqCOrJVuDozAFM" Name="Subdivisions" Kind="InputPin" DefaultValue="0" />
+            <Pin Id="L8BnIUMmjqCOrJVuDozAFM" Name="Subdivisions" Kind="InputPin" DefaultValue="4" />
             <Pin Id="HPaazthaleTQS49mlhFFTt" Name="UV Mode" Kind="InputPin" />
             <Pin Id="NdaJ59ZuKL2O4ADD2wh1Lt" Name="Local Offset" Kind="InputPin" />
             <Pin Id="LqVZlowufB3M2lJfpEqwGg" Name="Output" Kind="OutputPin" />
@@ -189,7 +189,6 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GeneralPolygon2d" />
             </p:NodeReference>
-            <Pin Id="ElQUMOQnSlJP6iCECmo8h1" Name="AddHoles" Kind="InputPin" />
             <Pin Id="PqBNd5RuUoFONEuONikLY5" Name="Points" Kind="InputPin" />
             <Pin Id="MWxwdT10HbTOYq4EWwVHdr" Name="Holes" Kind="InputPin" />
             <Pin Id="L25wG0FoHVFPLV4C2hWXO0" Name="B Check Containment" Kind="InputPin" DefaultValue="False" />
@@ -292,6 +291,11 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="LqdMSsLNJ1GQamBJYHlsSj" Comment="Subdivisions" Bounds="871,301,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="HUKSJBmjQ4MOo0YINx7PsI" Name="Create" />
         <Patch Id="OTxaLwBAzCvLy1s1SeKhFH" Name="Update" />
@@ -323,6 +327,7 @@
         <Link Id="VfjrpD3ufSNP5FNcjk72QV" Ids="BnWCwXv7MP7NpIzcoNGqfE,CgY5rSt0NxBMhmEXsV7q5X" />
         <Link Id="FbduDziZn1lNrW8kvsyYeJ" Ids="OEAsOwUa7KAPPaptbLKxVM,C0jHghc6RPKMcWsQeVFdkt" />
         <Link Id="H9YtuMMbd3ZMOGYIeCVqhN" Ids="GmbPTIQ3YzDPqvVO0giaDs,UwJkxNJnwjZM3B1KCG5pKA" />
+        <Link Id="HomCSWsoNLiNFD3ZPI0LLG" Ids="LqdMSsLNJ1GQamBJYHlsSj,L8BnIUMmjqCOrJVuDozAFM" />
       </Patch>
     </Node>
   </Patch>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CNQiZRjnJMpNjfsCF2uKsN" LanguageVersion="2021.4.9.963" Version="0.128">
+<Document xmlns:p="property" Id="SN3oQnG2DJ7PQ0JxmoaKIM" LanguageVersion="2021.4.9.963" Version="0.128">
   <Patch Id="SDrGkzY2oNZNE6MIlfyZlM">
     <Canvas Id="UvJUJ5uN3HkPofYQCZpkJZ" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -67,7 +67,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1170, 551, 458, 432" />
+            <Pin Id="EnPMtsnDhsFMNtvOopE0ph" Name="Bounds" Kind="InputPin" DefaultValue="1170, 551, 507, 432" />
             <Pin Id="U9FgBjI8MO0PeFgB9mLk56" Name="Input" Kind="InputPin" />
             <Pin Id="IXPYbfQgpPjLqn0PlBA7sM" Name="Camera" Kind="InputPin" />
             <Pin Id="NMyEGHu0uC0PO0Sgnd2XAj" Name="Enable Default Camera" Kind="InputPin" />
@@ -335,6 +335,15 @@
             <Pin Id="C3JIUBwXeCqL7t9X283Zpv" Name="Scaling" Kind="InputPin" DefaultValue="0.08" />
             <Pin Id="NVbCTTZUCxYPTnJbzi1bcy" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="UnypNTExaX0NnaEOWdctGw" Bounds="504,240,310,19" ShowValueBox="true" isIOBox="true" Value="&lt;&lt; WIP - Currently reading a file mesh to illustrate">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="HUKSJBmjQ4MOo0YINx7PsI" Name="Create" />
         <Patch Id="OTxaLwBAzCvLy1s1SeKhFH" Name="Update" />
